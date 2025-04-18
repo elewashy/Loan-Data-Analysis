@@ -2,6 +2,55 @@
 
 This project implements and compares different variants of Logistic Regression algorithms for binary classification on a loan default prediction dataset.
 
+## Project Steps
+
+### 1. Data Visualization
+- First, we analyze the data through visualization
+- Check all columns and identify the target variable
+- Use barplots to understand categorical variables
+- Create correlation matrix and heatmap
+  - This helps identify which features affect our target
+  - Shows relationships between different columns
+- After visualization, we know which columns are important for prediction
+
+### 2. Data Preprocessing
+- Check for data quality issues:
+  - Handle null values using median or mean
+  - Deal with outliers if found
+  - Convert categorical columns using encoding (one-hot or label)
+- Data cleaning steps:
+  1. Fill missing values
+  2. Remove outliers
+  3. Convert categorical to numerical values
+  4. Normalize/scale numerical features
+
+### 3. Model Implementation (From Scratch)
+- Implement logistic regression algorithm
+- Create simple loss function
+- Build the model step by step:
+  1. Basic implementation with loss function
+  2. Add gradient descent
+  3. Implement prediction functionality
+
+## Tools Used
+- Python
+- Pandas for data handling
+- Matplotlib/Seaborn for visualization
+- NumPy for numerical operations
+
+## Key Features
+- Simple data exploration
+- Basic data preprocessing
+- Basic model implementation
+- Easy to understand visualization
+
+## How to Run
+1. Load the data
+2. Run visualization cells
+3. Run preprocessing steps
+4. Train the model
+5. Check results
+
 ## Project Overview
 
 The project includes:
